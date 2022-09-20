@@ -1,0 +1,126 @@
+html {
+    text-align: center;
+    color:aliceblue;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 26pt;
+    background-color: rgb(100,100,255);
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 15pt;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 13pt;
+    background-color: rgb(120,140,255);
+}
+
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 12pt;
+}
+
+detail {
+    font-family: 'Merriweather', serif;
+    font-size: 9pt;
+    color: rgb(190,215,255);
+}
+
+
+
+lightest {
+    font-weight: 100;
+}
+
+mediumbold {
+    font-weight: 400;
+}
+
+bold {
+    font-weight: 900;
+}
+
+box {
+    background-color:rgb(120,140,255);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    margin-inline-start: 5px;
+    margin-inline-end: 10px;
+    border-radius: 30px;
+}
+
+firstbox {
+    background-color:rgb(100,100,255);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    border-radius: 20px;
+}
+
+
+
+body {
+    background-color: rgb(160,187,255);
+}
+
+italicstyle {
+    font-style: italic;
+}
+
+normalstyle {
+    font-style: normal;
+}
+
+tightletters {
+    letter-spacing: -0.05em;
+}
+
+normalletters {
+    letter-spacing: 0.5em;
+}
+
+longletters {
+    letter-spacing: 1em;
+}
+
+uppercase {
+    text-transform: uppercase;
+}
+
+lowercase {
+    text-transform: lowercase;
+}
+
+capitalize {
+    text-transform: capitalize;
+}
+
+
+underlined {
+    text-decoration: underline;
+}
+overlined {
+    text-decoration: overline;
+}
+
+striked {
+    text-decoration: line-through;
+}
