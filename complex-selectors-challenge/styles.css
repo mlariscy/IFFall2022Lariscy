@@ -1,0 +1,68 @@
+header {
+    margin-bottom: 3rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.see-all {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+h1,h2 {
+    font-weight: 100;
+}
+
+.cast li {
+    width: 25%;
+}
+
+nav li.selected a {
+    color: black;
+    font-weight: bold;
+}
+
+.cast li div {
+    font-size: 0.8rem;
+}
+
+.cast ul li a div:nth-of-type(1) {
+    font-weight: bold;
+}
+/* this is the first child that is a div that is a child of UL and LI and A that is class cast */
+
+.cast ul li a div:nth-of-type(2) {
+    font-style: italic;
+}
+
+.shows > li {
+    border-top:  1px black solid;
+}
+/* only adds a border when there's an li element as a direct child (right under) the shows class */
+
+#game-of-thrones .seasons ul li:last-child::after {
+    content:"*";
+}
+/*selecting the last child of li, and putting this after*/
+
+#game-of-thrones .seasons::after {
+    content: "* Final Season";
+    font-size: 0.7rem;
+    color: #999;
+}
+/* putting the text after the seasons section. no li, since it'll just rewrite over my previous task */
