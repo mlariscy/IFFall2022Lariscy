@@ -1,0 +1,98 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif; font-family: 'Merriweather', serif; font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header {
+    display: block;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/000/464/040/original/vector-dog-seamless-pattern-theme-bone-paw-foot-print-for-use-as-wallpaper-or-background.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    text-align: center;
+    height: 450px;
+    width: auto;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.center {
+    padding-top: 2rem;
+}
+
+.higher {
+    padding-top: -1rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.firstsection {
+    display: block;
+    background-color: antiquewhite;
+    background-size: cover;
+    height:650px;
+}
+.photosection {
+    display: block;
+    background-color: saddlebrown;
+    background-size: cover;
+    height: 680px;
+}
+
+.golden {
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    clear: both;
+}
+
+.shorter {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bolder {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pic {
+    height: 150px;
+    width: 200px;
+    float: left;
+    clear: both;
+    padding: 10px;
+}
+
+.thirdsection {
+    background-color: antiquewhite;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.copyright {
+    display: block;
+    text-align: left;
+    background-color:white;
+    height: 200px;
+}
