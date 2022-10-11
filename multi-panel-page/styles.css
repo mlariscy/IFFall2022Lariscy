@@ -1,5 +1,6 @@
 body {
-    font-family: 'Archivo Narrow', sans-serif; font-family: 'Merriweather', serif; font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif; 
+    line-height: 1.4;
 }
 
 .header {
@@ -8,71 +9,87 @@ body {
     background-size: cover;
     background-position: center 100%;
     text-align: center;
-    height: 450px;
     width: auto;
-    padding-top: 20px;
+    padding-bottom: 187px;
+
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 80px;
+    padding-top: 150px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 31px;
+    margin: 0;
 }
 
 h3 {
-    padding-top: 40px;
-    font-size: 50px;
-}
-
-.center {
-    padding-top: 2rem;
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
 }
 
 .higher {
-    padding-top: -1rem;
-}
-
-.title {
-    text-align: center;
-    font-size: 40px;
-    padding-top: 20px;
+    padding-top: -1rem; 
 }
 
 .firstsection {
     display: block;
     background-color: antiquewhite;
     background-size: cover;
-    height:650px;
+    margin:0;
+    padding-bottom: 40px;
 }
+
 .photosection {
     display: block;
-    background-color: saddlebrown;
+     background-color: saddlebrown;
     background-size: cover;
-    height: 680px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 16px;
+    margin: 0;
 }
 
 .golden {
     height: 300px;
     width: 400px;
     float: right;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 39px;
+    margin-bottom: 19px;
     clear: both;
-}
-
-.shorter {
-    margin-left: 3rem;
-    margin-right: 3rem;
 }
 
 ul {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .bolder {
     font-weight: bold;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
+    padding-bottom:5px;
+}
+
+li {
+    margin-bottom: 23px;
+    margin-right: 22px;
 }
 
 .pic {
@@ -80,19 +97,45 @@ ul {
     width: 200px;
     float: left;
     clear: both;
-    padding: 10px;
+    margin-right: 12px;
+
 }
 
 .thirdsection {
-    background-color: antiquewhite;
-    height: 400px;
+    background-color: antiquewhite; 
     text-align: center;
-    font-size: 25px;
+    margin: 0;
+    padding-top: 39px;
+    padding-bottom: 87px;
+}
+
+.safe-area {
+    width: 960px;
+    margin: auto;
+}
+
+.lastsection {
+    margin: 0;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    font-size: 26px;
+    padding-left: 121px;
+    padding-right: 121px;
+}
+
+.final {
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 0px;
 }
 
 .copyright {
     display: block;
     text-align: left;
     background-color:white;
-    height: 200px;
+    padding-left: 142px;
+    padding-top: 53px;
+    margin: 0;
 }
