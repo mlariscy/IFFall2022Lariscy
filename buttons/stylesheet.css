@@ -1,0 +1,924 @@
+
+/* The Stylesheet Given */
+
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* MY STYLES */
+
+
+
+
+/* COCA COLA  -------------------------------------------------------------------------------------*/
+a#btn_cocacola {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 15px 25px;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+a#btn_cocacola:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+a#btn_cocacola:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* MICHEAL KORS -------------------------------------------------------------------------------------*/
+a#btn_michealkors {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a#btn_michealkors:hover {
+    background-color: black;
+    color: grey;
+}
+
+a#btn_michealkors:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* LYFT --------------------------------------------------------------------------------------------*/
+
+a#btn_lyft {
+    background-color: plum;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 30px 15px;
+    text-transform: none;
+    text-decoration: none;
+    transition: all .2s;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+a#btn_lyft:hover {
+    background-color: fuchsia;
+    color: white;
+    box-shadow: 0 1 2px fuschia;
+    transform: scale(1.2);
+    font-weight: bolder;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a#btn_lyft:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* MISSOURI BOTANICAL GARDEN --------------------------------------------------------------------------------------------------------- */
+
+a#btn_botanicalgarden {
+    background-color: green;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+    font-family: transat-text, sans-serif;
+    font-weight: 400;
+}
+
+a#btn_botanicalgarden:hover {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    background-image: url(https://i.pinimg.com/originals/5c/67/da/5c67da590530d3fa3b8f682846ee29c0.jpg);
+}
+
+a#btn_botanicalgarden:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+/* THE COLOR RUN -------------------------------------------------------------------------------------*/
+a#btn_colorrun {
+    background-color: rgba(40,165,203,1);
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .2s;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+a#btn_colorrun:hover {
+    background-color: white;
+    color: rgb(9, 79, 114);
+    background-image: url(https://thumbs.dreamstime.com/b/rainbow-powder-background-explosion-shiny-colored-powders-67146066.jpg);
+    font-size: larger;
+}
+
+a#btn_colorrun:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes run {
+    from { transform: rotate(0deg); }
+    33% { transform: rotate(10deg); }
+    66% { transform: rotate(-10deg); }
+    to { transform: rotate(0deg); }
+}
+
+  a#btn_colorrun:hover {
+    display: block;
+    transform-origin: center bottom; 
+    animation-name: run;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+
+
+  /* MOO -------------------------------------------------------------------------------------*/
+a#btn_moo {
+    background-color: rgb(255, 255, 255);
+    color: rgb(52, 83, 40);
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: bryant-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+a#btn_moo:hover {
+    background-color: white;
+}
+
+a#btn_moo:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+a#btn_moo:hover .fa-droplet {
+    transform: translateY(15px);
+    transition: transform 2s;
+ }
+
+ /* FITBIT -------------------------------------------------------------------------------------*/
+
+ a#btn_fitbit {
+    background-color: rgb(31, 49, 58);
+    color: rgb(134, 244, 180);
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 5px 15px;
+    text-transform:lowercase;
+    text-decoration: none;
+    transition: all .3s;
+    font-family: proxima-nova-condensed light, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+a#btn_fitbit:hover {
+    color: rgb(134, 244, 180);
+    background: linear-gradient(to bottom, rgb(31, 49, 58) 40%,rgb(79, 150, 130) 80%,rgb(134, 244, 180) 100%);
+    size: 110%;
+}
+
+a#btn_fitbit:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* NPR ------------------------------------------------------------------------------------- */
+
+a#btn_npr {
+    background-color: white;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 10px;
+    text-transform: lowercase;
+    text-decoration: none;
+    transition: all 1s;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+a#btn_npr:hover {
+    color: white;
+    font-size: 40px;
+}
+
+a#btn_npr:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.red {
+    background-color: red;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.black {
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.blue {
+    background-color: rgb(19, 58, 104);
+    padding-left: 6px;
+    padding-right: 7px;
+}
+
+/* OLD NAVY ------------------------------------------------------------------------------------- */
+
+a#btn_oldnavy {
+    background-color: rgb(22, 28, 47);
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+a#btn_oldnavy:hover {
+    background-color: white;
+    color: rgb(22, 28, 47);
+    text-decoration: underline;
+}
+
+a#btn_oldnavy:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* POTTERMORE ------------------------------------------------------------------------------------- */
+
+a#btn_pottermore {
+    color: rgb(86, 75, 23);
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 15px;
+    text-transform: lowercase;
+    text-decoration: none;
+    transition: all .3s;
+    font-family: 'Princess Sofia', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+a#btn_pottermore:hover .fa-bolt {
+    scale: 120%;
+}
+
+a#btn_pottermore:hover {
+    background-color: rgb(159, 156, 95);
+    color: rgb(255, 254, 227);
+}
+
+a#btn_pottermore:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* NEW YORKER ------------------------------------------------------------------------------------- */
+
+a#btn_newyorker {
+    background-color: rgb(212, 212, 212);
+    color: black;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 5px 10px;
+    text-transform: none;
+    text-decoration: none;
+    transition: all .3s;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+
+a#btn_newyorker:hover {
+    background-color: white;
+    font-size: 25px;
+}
+
+a#btn_newyorker:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* NIKE ------------------------------------------------------------------------------------- */
+a#btn_nike {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+    font-family: Helvetica Condensed, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+}
+
+a#btn_nike:hover {
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 8px black;
+}
+
+a#btn_nike:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* FOREFLIGHT ------------------------------------------------------------------------------------- */
+
+a#btn_foreflight {
+    background-color: rgb(31, 127, 223);
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: none;
+    text-decoration: none;
+    transition: all .3s;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+a#btn_foreflight:hover {
+    background-color: rgb(32, 64, 98);
+}
+
+a#btn_foreflight:hover .fa-plane-circle-check {
+    color: rgb(31, 127, 223);
+}
+
+a#btn_foreflight:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* ARMY ------------------------------------------------------------------------------------- */
+
+a#btn_army {
+    background-color: black;
+    color: rgb(202, 172, 61);
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 5px 15px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    border: 5px solid  rgb(202, 172, 61);
+}
+
+a#btn_army:hover {
+    background-image:url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0685/7230/rCAMO_DEERLY_LOVED_TRADITIONAL_C2_-02_shop_thumb.png);
+}
+
+a#btn_army :before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* BISSINGERS ------------------------------------------------------------------------------------- */
+
+a#btn_bissingers {
+    background-color: rgb(255, 255, 255);
+    color: rgb(151, 124, 67);
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 5px 15px;
+    text-transform: none;
+    text-decoration: underline;
+    transition: all .3s;
+    font-family: 'Great Vibes', cursive;
+    font-size: 38px;
+}
+
+a#btn_bissingers:hover {
+    background-color: white;
+    font-size: 40px;
+    box-shadow: 0 0 3px rgb(226, 207, 149);
+}
+
+a#btn_bissingers:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* IDEO ------------------------------------------------------------------------------------- */
+
+a#btn_ideo {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+a#btn_ideo:hover {
+    background-color: white;
+    color: grey;
+}
+
+a#btn_ideo:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes ideo {
+    from { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180deg); }
+    75% { transform: rotate(270deg); }
+    to { transform: rotate(-0deg); }
+}
+
+a#btn_ideo:hover {
+    display: block;
+    transform-origin: center; 
+    animation-name: ideo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+  }
+
+
+/* SARDELLA ------------------------------------------------------------------------------------- */
+
+a#btn_sardella {
+    background-color: rgb(179, 54, 0);
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 15px;
+    text-transform: none;
+    text-decoration: none;
+    transition: all .1s;
+    font-family: Oswald, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+
+a#btn_sardella:hover {
+    background-color: rgb(21, 81, 88);
+    font-weight: 300;
+    padding: 20px;
+    padding-bottom: 25px;
+    text-decoration: underline;
+}
+
+a#btn_sardella:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* DIME CITY CYCLES ------------------------------------------------------------------------------------- */
+
+a#btn_dimecitycycles {
+    background-color: rgb(86, 23, 23);
+    color: rgb(241, 231, 231);
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    border: 3px solid rgb(30, 28, 28);
+}
+
+a#btn_dimecitycycles:hover {
+    background-color: rgb(158, 35, 35);
+    border: 5px solid rgb(70, 30, 30);
+    text-decoration: underline;
+}
+
+a#btn_dimecitycycles:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* EXPLODING KITTENS ------------------------------------------------------------------------------------- */
+
+a#btn_explodingkittens {
+    color: rgb(98, 0, 0);
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 20px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .1s;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+}
+
+a#btn_explodingkittens:hover {
+    background-color: white;
+    color: rgb(183, 0, 0);
+}
+
+a#btn_explodingkittens:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes explode {
+    from { transform: translateX(-5px); }
+    to { transform: translateX(5px); }
+}
+
+a#btn_explodingkittens:hover {
+    display: block;
+    transform-origin: center; 
+    animation-name: explode;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+/* MOLLYJOGGER ------------------------------------------------------------------------------------- */
+
+a#btn_mollyjogger {
+    background-color: rgb(255, 255, 255);
+    color: rgb(52, 80, 34);
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 5px 15px;
+    text-transform: lowercase;
+    text-decoration: none;
+    transition: all .8s;
+    font-family: schoolbook-condensed, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+a#btn_mollyjogger:hover {
+    background-color: white;
+    border: 2px solid rgb(52, 80, 34);
+}
+
+a#btn_mollyjogger:before {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
